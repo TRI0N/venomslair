@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>/usr/local/share/eggdrop/logs/wwiv.log.20141020</title>
+  <link rel="stylesheet" href="../../css/mySTYLE.css" />
+  <meta name="generator" content="irclog2html.py 2.13.1 by Marius Gedminas" />
+  <meta name="version" content="2.13.1 - 2014-02-01" />
+</head>
+<body>
+<h1>/usr/local/share/eggdrop/logs/wwiv.log.20141020</h1>
+<table class="irclog">
+<tr id="t07:56:45"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">morning</td><td class="time"><a href="#t07:56:45" class="time">07:56</a></td></tr>
+<tr id="t08:11:39"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">rebuilding r1066 to test</td><td class="time"><a href="#t08:11:39" class="time">08:11</a></td></tr>
+<tr id="t08:55:32"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">cool</td><td class="time"><a href="#t08:55:32" class="time">08:55</a></td></tr>
+<tr id="t08:55:35"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">lemme know how it works.</td><td class="time"><a href="#t08:55:35" class="time">08:55</a></td></tr>
+<tr id="t09:44:20"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">so far so good</td><td class="time"><a href="#t09:44:20" class="time">09:44</a></td></tr>
+<tr id="t09:47:30"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">I know Atani said he was dropping out a while back.&nbsp;&nbsp;Is @177 dead?</td><td class="time"><a href="#t09:47:30" class="time">09:47</a></td></tr>
+<tr id="t09:48:17"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">I saw these in my WWIVnet report:</td><td class="time"><a href="#t09:48:17" class="time">09:48</a></td></tr>
+<tr id="t09:48:18"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">Unknown system @177 hosting sub NETXTST.</td><td class="time"><a href="#t09:48:18" class="time">09:48</a></td></tr>
+<tr id="t09:48:18"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">Unknown system @177 hosting sub NETXDEV.</td><td class="time"><a href="#t09:48:18" class="time">09:48</a></td></tr>
+<tr id="t09:48:19"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">Unknown system @177 hosting sub NETXREL.</td><td class="time"><a href="#t09:48:19" class="time">09:48</a></td></tr>
+<tr id="t09:52:21"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">dang, r1066 soooooo close to 10/14</td><td class="time"><a href="#t09:52:21" class="time">09:52</a></td></tr>
+<tr id="t10:37:41"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">10/14?</td><td class="time"><a href="#t10:37:41" class="time">10:37</a></td></tr>
+<tr id="t10:38:08"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">Battle of hastings: 10/14/1066</td><td class="time"><a href="#t10:38:08" class="time">10:38</a></td></tr>
+<tr id="t10:40:06"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">Heh</td><td class="time"><a href="#t10:40:06" class="time">10:40</a></td></tr>
+<tr id="t10:40:26"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">Glad the latest works</td><td class="time"><a href="#t10:40:26" class="time">10:40</a></td></tr>
+<tr id="t10:40:53"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">yeah, seems to be doing fine</td><td class="time"><a href="#t10:40:53" class="time">10:40</a></td></tr>
+<tr id="t10:40:54"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">Figured since we saw different crashes it was memory overrun</td><td class="time"><a href="#t10:40:54" class="time">10:40</a></td></tr>
+<tr id="t10:41:04"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">So valgrind write errors is where to look</td><td class="time"><a href="#t10:41:04" class="time">10:41</a></td></tr>
+<tr id="t10:41:35"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">And the fense added by gdb and valgrind to track allocations is why it didn't crash there</td><td class="time"><a href="#t10:41:35" class="time">10:41</a></td></tr>
+<tr id="t10:41:55"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">makes sense</td><td class="time"><a href="#t10:41:55" class="time">10:41</a></td></tr>
+<tr id="t15:01:11"><td class="other" colspan="2">Klaatu (Klaatu@osprey-4F02E4C0.clients.kiwiirc.com) joined #wwiv.</td><td><a href="#t15:01:11" class="time">15:01</a></td></tr>
+<tr id="t15:01:46"><td class="other" colspan="2">Klaatu (Klaatu@osprey-4F02E4C0.clients.kiwiirc.com) left irc: Quit: <a href="http://www.kiwiirc.com/" rel="nofollow">http://www.kiwiirc.com/</a> - A hand crafted IRC client</td><td><a href="#t15:01:46" class="time">15:01</a></td></tr>
+<tr id="t15:06:04"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">Hey klaatu</td><td class="time"><a href="#t15:06:04" class="time">15:06</a></td></tr>
+<tr id="t18:32:17"><td class="other" colspan="2">WSSmobile____ (sid24340@osprey-AD9B785B.irccloud.com) got netsplit.</td><td><a href="#t18:32:17" class="time">18:32</a></td></tr>
+<tr id="t18:33:33"><td class="other" colspan="2">WSSmobile____ (sid24340@osprey-AD9B785B.irccloud.com) returned to #wwiv.</td><td><a href="#t18:33:33" class="time">18:33</a></td></tr>
+<tr id="t19:11:29"><td class="other" colspan="2">wwiv-build-bot (wwiv-jenki@E5ADA5FD.FDC8E5B.99C375DB.IP) left irc: Ping timeout</td><td><a href="#t19:11:29" class="time">19:11</a></td></tr>
+<tr id="t19:14:10"><td class="other" colspan="2">wwiv-build-bot (wwiv-jenki@E5ADA5FD.FDC8E5B.99C375DB.IP) joined #wwiv.</td><td><a href="#t19:14:10" class="time">19:14</a></td></tr>
+<tr id="t00:00:04"><td class="servermsg" colspan="2">--- Tue Oct 21 2014</td><td><a href="#t00:00:04" class="time">00:00</a></td></tr>
+</table>
+
+<div class="generatedby">
+<p>Generated by irclog2html.py 2.13.1 by <a href="mailto:marius@pov.lt">Marius Gedminas</a>
+ - find it at <a href="http://mg.pov.lt/irclog2html/">mg.pov.lt</a>!</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>/usr/local/share/eggdrop/logs/wwiv.log.20140917</title>
+  <link rel="stylesheet" href="../../css/mySTYLE.css" />
+  <meta name="generator" content="irclog2html.py 2.13.1 by Marius Gedminas" />
+  <meta name="version" content="2.13.1 - 2014-02-01" />
+</head>
+<body>
+<h1>/usr/local/share/eggdrop/logs/wwiv.log.20140917</h1>
+<table class="irclog">
+<tr id="t00:17:39"><td class="other" colspan="2">Matt (Matt@osprey-DDA53481.socal.res.rr.com) joined #wwiv.</td><td><a href="#t00:17:39" class="time">00:17</a></td></tr>
+<tr id="t00:17:40"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">Hi</td><td class="time"><a href="#t00:17:40" class="time">00:17</a></td></tr>
+<tr id="t00:17:52"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">what cpp file would have the functions of the commands in the wfc</td><td class="time"><a href="#t00:17:52" class="time">00:17</a></td></tr>
+<tr id="t00:17:59"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i didnt see the commands in the wfc.cpp</td><td class="time"><a href="#t00:17:59" class="time">00:17</a></td></tr>
+<tr id="t00:19:54"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">which commands?</td><td class="time"><a href="#t00:19:54" class="time">00:19</a></td></tr>
+<tr id="t00:20:16"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">you mean like InstanceEdit?</td><td class="time"><a href="#t00:20:16" class="time">00:20</a></td></tr>
+<tr id="t00:20:25"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">if so that is menusupp.cpp</td><td class="time"><a href="#t00:20:25" class="time">00:20</a></td></tr>
+<tr id="t00:21:05"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">bbs up?</td><td class="time"><a href="#t00:21:05" class="time">00:21</a></td></tr>
+<tr id="t00:21:32"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">I was thinking of the commands within the wfc like Initalize votes</td><td class="time"><a href="#t00:21:32" class="time">00:21</a></td></tr>
+<tr id="t00:21:38"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">or user editor</td><td class="time"><a href="#t00:21:38" class="time">00:21</a></td></tr>
+<tr id="t00:21:42"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i can turn my bbs on</td><td class="time"><a href="#t00:21:42" class="time">00:21</a></td></tr>
+<tr id="t00:22:16"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">oh bbs.cpp</td><td class="time"><a href="#t00:22:16" class="time">00:22</a></td></tr>
+<tr id="t00:22:39"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">look for doWFCEvents()</td><td class="time"><a href="#t00:22:39" class="time">00:22</a></td></tr>
+<tr id="t00:25:45"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i wanted to fix a small booboo</td><td class="time"><a href="#t00:25:45" class="time">00:25</a></td></tr>
+<tr id="t00:28:00"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">line 262 in bbs.cpp</td><td class="time"><a href="#t00:28:00" class="time">00:28</a></td></tr>
+<tr id="t00:28:01"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">has issues</td><td class="time"><a href="#t00:28:01" class="time">00:28</a></td></tr>
+<tr id="t00:28:13"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">the color codes were not inserted properly</td><td class="time"><a href="#t00:28:13" class="time">00:28</a></td></tr>
+<tr id="t00:33:16"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i fixed the mistake :)</td><td class="time"><a href="#t00:33:16" class="time">00:33</a></td></tr>
+<tr id="t00:34:00"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">cool</td><td class="time"><a href="#t00:34:00" class="time">00:34</a></td></tr>
+<tr id="t00:34:05"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">use diff and make a patch</td><td class="time"><a href="#t00:34:05" class="time">00:34</a></td></tr>
+<tr id="t00:34:16"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">and attach it to a bug</td><td class="time"><a href="#t00:34:16" class="time">00:34</a></td></tr>
+<tr id="t00:34:20"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">and I'll merge it.</td><td class="time"><a href="#t00:34:20" class="time">00:34</a></td></tr>
+<tr id="t00:34:21"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">very cool</td><td class="time"><a href="#t00:34:21" class="time">00:34</a></td></tr>
+<tr id="t00:34:30"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i think you forgot to add the #</td><td class="time"><a href="#t00:34:30" class="time">00:34</a></td></tr>
+<tr id="t00:35:48"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">ok, found it</td><td class="time"><a href="#t00:35:48" class="time">00:35</a></td></tr>
+<tr id="t00:36:19"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">submitting the fix now</td><td class="time"><a href="#t00:36:19" class="time">00:36</a></td></tr>
+<tr id="t00:36:43"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">submitted</td><td class="time"><a href="#t00:36:43" class="time">00:36</a></td></tr>
+<tr id="t00:36:46"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">thx dude</td><td class="time"><a href="#t00:36:46" class="time">00:36</a></td></tr>
+<tr id="t00:37:35"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">yea, i was compiling to see if what i changed made it work</td><td class="time"><a href="#t00:37:35" class="time">00:37</a></td></tr>
+<tr id="t00:44:32"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">the bbs is up again</td><td class="time"><a href="#t00:44:32" class="time">00:44</a></td></tr>
+<tr id="t00:52:03"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">cool</td><td class="time"><a href="#t00:52:03" class="time">00:52</a></td></tr>
+<tr id="t00:52:12"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">jenkins must be broke</td><td class="time"><a href="#t00:52:12" class="time">00:52</a></td></tr>
+<tr id="t00:53:46"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">bouncing it now</td><td class="time"><a href="#t00:53:46" class="time">00:53</a></td></tr>
+<tr id="t01:06:48"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">g'night</td><td class="time"><a href="#t01:06:48" class="time">01:06</a></td></tr>
+<tr id="t01:09:45"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">if your done have a good nite</td><td class="time"><a href="#t01:09:45" class="time">01:09</a></td></tr>
+<tr id="t01:11:16"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">am done</td><td class="time"><a href="#t01:11:16" class="time">01:11</a></td></tr>
+<tr id="t01:11:22"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">I need sleep</td><td class="time"><a href="#t01:11:22" class="time">01:11</a></td></tr>
+<tr id="t01:16:33"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">we all do :)</td><td class="time"><a href="#t01:16:33" class="time">01:16</a></td></tr>
+<tr id="t01:16:37"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">thanks for your efforts</td><td class="time"><a href="#t01:16:37" class="time">01:16</a></td></tr>
+<tr id="t01:23:05"><td class="other" colspan="2">Matt (Matt@osprey-DDA53481.socal.res.rr.com) left irc: Quit: Leaving</td><td><a href="#t01:23:05" class="time">01:23</a></td></tr>
+<tr id="t02:04:25"><td class="other" colspan="2">wwiv-build-bot (wwiv-jenki@E5ADA5FD.FDC8E5B.99C375DB.IP) joined #wwiv.</td><td><a href="#t02:04:25" class="time">02:04</a></td></tr>
+<tr id="t08:48:09"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">Project WWIV build #543: 09SUCCESS in 3 min 54 sec: <a href="http://build.wwiv.us/job/WWIV/543/" rel="nofollow">http://build.wwiv.us/job/WWIV/543/</a></td><td class="time"><a href="#t08:48:09" class="time">08:48</a></td></tr>
+<tr id="t08:48:09"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">rushfan: removed lp replacements for read_extended_description</td><td class="time"><a href="#t08:48:09" class="time">08:48</a></td></tr>
+<tr id="t08:51:06"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">Project bbs_test build #437: 09SUCCESS in 2 min 47 sec: <a href="http://build.wwiv.us/job/bbs_test/437/" rel="nofollow">http://build.wwiv.us/job/bbs_test/437/</a></td><td class="time"><a href="#t08:51:06" class="time">08:51</a></td></tr>
+<tr id="t08:51:06"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">rushfan: removed lp replacements for read_extended_description</td><td class="time"><a href="#t08:51:06" class="time">08:51</a></td></tr>
+<tr id="t09:25:23"><td class="other" colspan="2">FCReid (FCReid@3DB8B03B.22685BB8.B5B564CD.IP) joined #wwiv.</td><td><a href="#t09:25:23" class="time">09:25</a></td></tr>
+<tr id="t09:31:10"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">morning</td><td class="time"><a href="#t09:31:10" class="time">09:31</a></td></tr>
+<tr id="t09:31:25"><th class="nick" style="background: #488888">FCReid</th><td class="text" style="color: #488888">Hey, GP!</td><td class="time"><a href="#t09:31:25" class="time">09:31</a></td></tr>
+<tr id="t09:31:41"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">Yes, I'm alive</td><td class="time"><a href="#t09:31:41" class="time">09:31</a></td></tr>
+<tr id="t09:31:45"><th class="nick" style="background: #488888">FCReid</th><td class="text" style="color: #488888">I don't arrive in Cleveland until Mon... staying until the 29th.</td><td class="time"><a href="#t09:31:45" class="time">09:31</a></td></tr>
+<tr id="t09:31:56"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">figures</td><td class="time"><a href="#t09:31:56" class="time">09:31</a></td></tr>
+<tr id="t09:32:00"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">so close</td><td class="time"><a href="#t09:32:00" class="time">09:32</a></td></tr>
+<tr id="t09:43:23"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">I'll be heading back home Sunday.&nbsp;&nbsp;Just doing a quick trip to pick up some more stuff</td><td class="time"><a href="#t09:43:23" class="time">09:43</a></td></tr>
+<tr id="t10:52:22"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">greetings</td><td class="time"><a href="#t10:52:22" class="time">10:52</a></td></tr>
+<tr id="t10:52:55"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">fixing Area Manager stuff in WSETUP.</td><td class="time"><a href="#t10:52:55" class="time">10:52</a></td></tr>
+<tr id="t10:53:31"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">the cleanup() routine bombs out on me. think it's the unlink/rename functions that aren't behaving.</td><td class="time"><a href="#t10:53:31" class="time">10:53</a></td></tr>
+<tr id="t11:24:50"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">Good morning </td><td class="time"><a href="#t11:24:50" class="time">11:24</a></td></tr>
+<tr id="t11:34:12"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">Guess I missed everyone</td><td class="time"><a href="#t11:34:12" class="time">11:34</a></td></tr>
+<tr id="t11:38:12"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">I'm still here</td><td class="time"><a href="#t11:38:12" class="time">11:38</a></td></tr>
+<tr id="t11:38:24"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">how's it going?</td><td class="time"><a href="#t11:38:24" class="time">11:38</a></td></tr>
+<tr id="t13:17:43"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">good</td><td class="time"><a href="#t13:17:43" class="time">13:17</a></td></tr>
+<tr id="t13:17:46"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">I'm in and out</td><td class="time"><a href="#t13:17:46" class="time">13:17</a></td></tr>
+<tr id="t13:31:07"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">yeah, same here</td><td class="time"><a href="#t13:31:07" class="time">13:31</a></td></tr>
+<tr id="t14:04:24"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">afternoon</td><td class="time"><a href="#t14:04:24" class="time">14:04</a></td></tr>
+<tr id="t14:08:16"><td class="other" colspan="2">FCReid (FCReid@3DB8B03B.22685BB8.B5B564CD.IP) left irc: Quit: ~ Trillian - www.trillian.im ~</td><td><a href="#t14:08:16" class="time">14:08</a></td></tr>
+<tr id="t14:34:29"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">hi</td><td class="time"><a href="#t14:34:29" class="time">14:34</a></td></tr>
+<tr id="t14:42:02"><td class="other" colspan="2">Matt (Matt@osprey-DDA53481.socal.res.rr.com) joined #wwiv.</td><td><a href="#t14:42:02" class="time">14:42</a></td></tr>
+<tr id="t14:51:01"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">yay the listplus issue is fixed</td><td class="time"><a href="#t14:51:01" class="time">14:51</a></td></tr>
+<tr id="t14:51:05"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">yay yay yay yay yay</td><td class="time"><a href="#t14:51:05" class="time">14:51</a></td></tr>
+<tr id="t15:06:37"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">or was it?</td><td class="time"><a href="#t15:06:37" class="time">15:06</a></td></tr>
+<tr id="t15:44:10"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">what is the listplus issue?</td><td class="time"><a href="#t15:44:10" class="time">15:44</a></td></tr>
+<tr id="t15:48:47"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">I think external descriptions are still having issues</td><td class="time"><a href="#t15:48:47" class="time">15:48</a></td></tr>
+<tr id="t15:48:55"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">where i cant get the external descriptions to display</td><td class="time"><a href="#t15:48:55" class="time">15:48</a></td></tr>
+<tr id="t15:58:26"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">its working now.&nbsp;&nbsp;i'll see if it consistently is working :)</td><td class="time"><a href="#t15:58:26" class="time">15:58</a></td></tr>
+<tr id="t16:16:28"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">kewl </td><td class="time"><a href="#t16:16:28" class="time">16:16</a></td></tr>
+<tr id="t16:19:29"><td class="other" colspan="2">FCReid (FCReid@osprey-4F9D71E5.sub-70-210-161.myvzw.com) joined #wwiv.</td><td><a href="#t16:19:29" class="time">16:19</a></td></tr>
+<tr id="t16:22:48"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">hi frank</td><td class="time"><a href="#t16:22:48" class="time">16:22</a></td></tr>
+<tr id="t16:23:35"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">!op frank</td><td class="time"><a href="#t16:23:35" class="time">16:23</a></td></tr>
+<tr id="t16:23:43"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">stupid bot</td><td class="time"><a href="#t16:23:43" class="time">16:23</a></td></tr>
+<tr id="t16:23:46"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">!owner </td><td class="time"><a href="#t16:23:46" class="time">16:23</a></td></tr>
+<tr id="t16:23:46"><td class="other" colspan="2">#wwiv: mode change '+q Eli' by Alice!Alice@wonderland.ospreynet.info</td><td><a href="#t16:23:46" class="time">16:23</a></td></tr>
+<tr id="t16:23:50"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">!op frank</td><td class="time"><a href="#t16:23:50" class="time">16:23</a></td></tr>
+<tr id="t16:23:56"><th class="nick" style="background: #4b904b">Eli</th><td class="text" style="color: #4b904b">still stupid </td><td class="time"><a href="#t16:23:56" class="time">16:23</a></td></tr>
+<tr id="t16:24:21"><td class="other" colspan="2">FCReid_ (FCReid@osprey-B482F2E9.sub-70-210-161.myvzw.com) joined #wwiv.</td><td><a href="#t16:24:21" class="time">16:24</a></td></tr>
+<tr id="t16:25:19"><td class="other" colspan="2">FCReid (FCReid@osprey-4F9D71E5.sub-70-210-161.myvzw.com) left irc: Ping timeout</td><td><a href="#t16:25:19" class="time">16:25</a></td></tr>
+<tr id="t16:35:42"><td class="other" colspan="2">FCReid_ (FCReid@osprey-B482F2E9.sub-70-210-161.myvzw.com) left irc: Ping timeout</td><td><a href="#t16:35:42" class="time">16:35</a></td></tr>
+<tr id="t16:47:38"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i think fix screwws the extended file description</td><td class="time"><a href="#t16:47:38" class="time">16:47</a></td></tr>
+<tr id="t16:47:42"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">if you run fix</td><td class="time"><a href="#t16:47:42" class="time">16:47</a></td></tr>
+<tr id="t16:47:48"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">the extended file description is ruined</td><td class="time"><a href="#t16:47:48" class="time">16:47</a></td></tr>
+<tr id="t16:47:55"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">and you have to redo your directories</td><td class="time"><a href="#t16:47:55" class="time">16:47</a></td></tr>
+<tr id="t16:48:07"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">so its likely a fix issue</td><td class="time"><a href="#t16:48:07" class="time">16:48</a></td></tr>
+<tr id="t17:09:55"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">sounds like it is a fix issue</td><td class="time"><a href="#t17:09:55" class="time">17:09</a></td></tr>
+<tr id="t17:09:58"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">let's not run fix :)</td><td class="time"><a href="#t17:09:58" class="time">17:09</a></td></tr>
+<tr id="t21:28:25"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">what is fix supposed to fix anyhoo?</td><td class="time"><a href="#t21:28:25" class="time">21:28</a></td></tr>
+<tr id="t21:33:58"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">&quot;fixed extended description&quot;</td><td class="time"><a href="#t21:33:58" class="time">21:33</a></td></tr>
+<tr id="t21:34:06"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">i think fix is undoing the extended descriptions</td><td class="time"><a href="#t21:34:06" class="time">21:34</a></td></tr>
+<tr id="t21:40:52"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">i'm nearly done with wsetup.</td><td class="time"><a href="#t21:40:52" class="time">21:40</a></td></tr>
+<tr id="t21:41:21"><th class="nick" style="background: #8c4a4a">xenos</th><td class="text" style="color: #8c4a4a">when it's functionally complete, i'll publish the source on github.</td><td class="time"><a href="#t21:41:21" class="time">21:41</a></td></tr>
+<tr id="t23:36:58"><td class="other" colspan="2">rushfan_ (rushfan-c@osprey-712839D8.hsd1.ca.comcast.net) joined #wwiv.</td><td><a href="#t23:36:58" class="time">23:36</a></td></tr>
+<tr id="t23:37:19"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">fix seems to break stuff</td><td class="time"><a href="#t23:37:19" class="time">23:37</a></td></tr>
+<tr id="t23:37:26"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">but it will regenerate names.lst</td><td class="time"><a href="#t23:37:26" class="time">23:37</a></td></tr>
+<tr id="t23:37:32"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">cool xenos</td><td class="time"><a href="#t23:37:32" class="time">23:37</a></td></tr>
+<tr id="t23:55:25"><th class="nick" style="background: #42427e">Rushfan</th><td class="text" style="color: #42427e">matt, what was the log</td><td class="time"><a href="#t23:55:25" class="time">23:55</a></td></tr>
+<tr id="t23:55:55"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">I'll paste what i got</td><td class="time"><a href="#t23:55:55" class="time">23:55</a></td></tr>
+<tr id="t23:56:15"><th class="nick" style="background: #407a40">Matt</th><td class="text" style="color: #407a40">! 14:54:05&nbsp;&nbsp;Fixed extended description for 'AB1V140 .ZIP'.</td><td class="time"><a href="#t23:56:15" class="time">23:56</a></td></tr>
+<tr id="t00:00:03"><td class="servermsg" colspan="2">--- Thu Sep 18 2014</td><td><a href="#t00:00:03" class="time">00:00</a></td></tr>
+</table>
+
+<div class="generatedby">
+<p>Generated by irclog2html.py 2.13.1 by <a href="mailto:marius@pov.lt">Marius Gedminas</a>
+ - find it at <a href="http://mg.pov.lt/irclog2html/">mg.pov.lt</a>!</p>
+</div>
+</body>
+</html>

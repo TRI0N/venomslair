@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>/usr/local/share/eggdrop/logs/wwiv.log.20141019</title>
+  <link rel="stylesheet" href="../../css/mySTYLE.css" />
+  <meta name="generator" content="irclog2html.py 2.13.1 by Marius Gedminas" />
+  <meta name="version" content="2.13.1 - 2014-02-01" />
+</head>
+<body>
+<h1>/usr/local/share/eggdrop/logs/wwiv.log.20141019</h1>
+<table class="irclog">
+<tr id="t12:23:13"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">ok, I've entered a bug for the pathing issue in xinit</td><td class="time"><a href="#t12:23:13" class="time">12:23</a></td></tr>
+<tr id="t12:57:21"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">ok</td><td class="time"><a href="#t12:57:21" class="time">12:57</a></td></tr>
+<tr id="t13:00:12"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">weird that gdb would influence how it works.</td><td class="time"><a href="#t13:00:12" class="time">13:00</a></td></tr>
+<tr id="t13:00:19"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">sounds like something else is going on maybe</td><td class="time"><a href="#t13:00:19" class="time">13:00</a></td></tr>
+<tr id="t13:09:52"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">I can't reproduce that.</td><td class="time"><a href="#t13:09:52" class="time">13:09</a></td></tr>
+<tr id="t13:10:01"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">I setup hte same relative paths</td><td class="time"><a href="#t13:10:01" class="time">13:10</a></td></tr>
+<tr id="t13:10:23"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">print syscfg.datadir</td><td class="time"><a href="#t13:10:23" class="time">13:10</a></td></tr>
+<tr id="t13:10:23"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">$4 = 0x7ce7b0 &quot;/home/r/bbs/data/&quot;</td><td class="time"><a href="#t13:10:23" class="time">13:10</a></td></tr>
+<tr id="t13:10:28"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">so I see the expected path</td><td class="time"><a href="#t13:10:28" class="time">13:10</a></td></tr>
+<tr id="t13:10:39"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e"> -- that said, I'm getting some crash in unique_ptr's destructor for wwiv.ini</td><td class="time"><a href="#t13:10:39" class="time">13:10</a></td></tr>
+<tr id="t13:10:42"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">dunno what's going on there</td><td class="time"><a href="#t13:10:42" class="time">13:10</a></td></tr>
+<tr id="t13:47:54"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">Hmm. My crash doesn't reproduce under valgrind... Awesome</td><td class="time"><a href="#t13:47:54" class="time">13:47</a></td></tr>
+<tr id="t16:58:07"><th class="nick" style="background: #407a40">GranitePenguin</th><td class="text" style="color: #407a40">yeah, it's a weird one</td><td class="time"><a href="#t16:58:07" class="time">16:58</a></td></tr>
+<tr id="t22:50:28"><td class="other" colspan="2">wwiv-build-bot (wwiv-jenki@E5ADA5FD.FDC8E5B.99C375DB.IP) joined #wwiv.</td><td><a href="#t22:50:28" class="time">22:50</a></td></tr>
+<tr id="t22:50:40"><th class="nick" style="background: #42427e">rushfan</th><td class="text" style="color: #42427e">GP: yt?</td><td class="time"><a href="#t22:50:40" class="time">22:50</a></td></tr>
+<tr id="t22:55:36"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">Project WWIV build #576: 09SUCCESS in 5 min 13 sec: <a href="http://build.wwiv.us/job/WWIV/576/" rel="nofollow">http://build.wwiv.us/job/WWIV/576/</a></td><td class="time"><a href="#t22:55:36" class="time">22:55</a></td></tr>
+<tr id="t22:55:36"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: fix strlen going past the end of szFileSpec looking for a null, this was the last valgring warning before the N prompt</td><td class="time"><a href="#t22:55:36" class="time">22:55</a></td></tr>
+<tr id="t22:55:37"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: ensure syscfg.XXXXdir entries have extra padding so make_abs_path can work on them</td><td class="time"><a href="#t22:55:37" class="time">22:55</a></td></tr>
+<tr id="t22:55:37"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: use _t types everywhere</td><td class="time"><a href="#t22:55:37" class="time">22:55</a></td></tr>
+<tr id="t22:55:38"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: cleanup in bbslist, use filenamemacros, fix convert legacy list, use prettyprinter for bbslist.json, refactor parsing code to do smaller chunks to make it easier to folow</td><td class="time"><a href="#t22:55:38" class="time">22:55</a></td></tr>
+<tr id="t22:55:38"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: added wconstants include to wlocal_io.cpp</td><td class="time"><a href="#t22:55:38" class="time">22:55</a></td></tr>
+<tr id="t22:55:39"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: remove more non-file structs from vardec.h</td><td class="time"><a href="#t22:55:39" class="time">22:55</a></td></tr>
+<tr id="t22:59:13"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">Project bbs_test build #467: 09SUCCESS in 3 min 26 sec: <a href="http://build.wwiv.us/job/bbs_test/467/" rel="nofollow">http://build.wwiv.us/job/bbs_test/467/</a></td><td class="time"><a href="#t22:59:13" class="time">22:59</a></td></tr>
+<tr id="t22:59:14"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: fix strlen going past the end of szFileSpec looking for a null, this was the last valgring warning before the N prompt</td><td class="time"><a href="#t22:59:14" class="time">22:59</a></td></tr>
+<tr id="t22:59:14"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: ensure syscfg.XXXXdir entries have extra padding so make_abs_path can work on them</td><td class="time"><a href="#t22:59:14" class="time">22:59</a></td></tr>
+<tr id="t22:59:15"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: use _t types everywhere</td><td class="time"><a href="#t22:59:15" class="time">22:59</a></td></tr>
+<tr id="t22:59:15"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: cleanup in bbslist, use filenamemacros, fix convert legacy list, use prettyprinter for bbslist.json, refactor parsing code to do smaller chunks to make it easier to folow</td><td class="time"><a href="#t22:59:15" class="time">22:59</a></td></tr>
+<tr id="t22:59:16"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: added wconstants include to wlocal_io.cpp</td><td class="time"><a href="#t22:59:16" class="time">22:59</a></td></tr>
+<tr id="t22:59:16"><th class="nick" style="background: #818144">wwiv-build-bot</th><td class="text" style="color: #818144">* rushfan: remove more non-file structs from vardec.h</td><td class="time"><a href="#t22:59:16" class="time">22:59</a></td></tr>
+<tr id="t00:00:03"><td class="servermsg" colspan="2">--- Mon Oct 20 2014</td><td><a href="#t00:00:03" class="time">00:00</a></td></tr>
+</table>
+
+<div class="generatedby">
+<p>Generated by irclog2html.py 2.13.1 by <a href="mailto:marius@pov.lt">Marius Gedminas</a>
+ - find it at <a href="http://mg.pov.lt/irclog2html/">mg.pov.lt</a>!</p>
+</div>
+</body>
+</html>

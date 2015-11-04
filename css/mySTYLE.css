@@ -1,0 +1,138 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #fff;
+	background-color: #333333;
+	margin: 0px;
+}
+
+#menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	padding: 1px;
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	line-height: 20px;
+	width: 120px;
+	background-image: url(../navimages/menuBG.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#mast {
+	text-decoration: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 700px;
+	height: 100px;
+}
+
+#content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-decoration: none;
+	position: absolute;
+	left: 120px;
+	top: 102px;
+	line-height: 22px;
+	width: 1150px;
+}
+
+.center {
+	text-align: center;
+	left: 50%;
+
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+
+}
+
+.titles {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.titlesLarger {
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.titlesSmaller {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bold {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.boldsmall {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.centerunderline {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 10px;
+}
+
+.boldunder {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.boldundersm {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 12px;
+}
+.boldcenunder {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.table, .table td, .table th {
+	font-size: 12px;
+	width: auto;
+}

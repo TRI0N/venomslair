@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>wwiv.log.20150203</title>
+  <link rel="stylesheet" href="../../css/mySTYLE.css" />
+  <meta name="generator" content="irclog2html.py 2.13.1 by Marius Gedminas" />
+  <meta name="version" content="2.13.1 - 2014-02-01" />
+</head>
+<body>
+<h1>wwiv.log.20150203</h1>
+<table class="irclog">
+<tr id="t00:21:45"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Thx</td><td class="time"><a href="#t00:21:45" class="time">00:21</a></td></tr>
+<tr id="t02:50:25"><td class="other" colspan="2">emoney__ (emoney@osprey-D0294C2B.washdc.fios.verizon.net) left irc: Ping timeout</td><td><a href="#t02:50:25" class="time">02:50</a></td></tr>
+<tr id="t07:31:25"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) joined #wwiv.</td><td><a href="#t07:31:25" class="time">07:31</a></td></tr>
+<tr id="t08:33:48"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">howdy</td><td class="time"><a href="#t08:33:48" class="time">08:33</a></td></tr>
+<tr id="t08:38:12"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">hi</td><td class="time"><a href="#t08:38:12" class="time">08:38</a></td></tr>
+<tr id="t08:42:23"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">so did bbs -w sorta work?</td><td class="time"><a href="#t08:42:23" class="time">08:42</a></td></tr>
+<tr id="t08:42:29"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">I dunno why there's no color</td><td class="time"><a href="#t08:42:29" class="time">08:42</a></td></tr>
+<tr id="t08:42:36"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">at least not for me... </td><td class="time"><a href="#t08:42:36" class="time">08:42</a></td></tr>
+<tr id="t08:42:38"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">yes</td><td class="time"><a href="#t08:42:38" class="time">08:42</a></td></tr>
+<tr id="t08:42:39"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">debugging on gdb sucks</td><td class="time"><a href="#t08:42:39" class="time">08:42</a></td></tr>
+<tr id="t08:43:10"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">and it didn't have color for some things for me either</td><td class="time"><a href="#t08:43:10" class="time">08:43</a></td></tr>
+<tr id="t08:43:26"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">the main screen does</td><td class="time"><a href="#t08:43:26" class="time">08:43</a></td></tr>
+<tr id="t08:43:41"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">yes - but once it exits curses - it's b&amp;w</td><td class="time"><a href="#t08:43:41" class="time">08:43</a></td></tr>
+<tr id="t08:43:46"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">yes</td><td class="time"><a href="#t08:43:46" class="time">08:43</a></td></tr>
+<tr id="t08:43:47"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">so the main screen is curses</td><td class="time"><a href="#t08:43:47" class="time">08:43</a></td></tr>
+<tr id="t08:43:56"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">then I call endwin and use normal wwiv</td><td class="time"><a href="#t08:43:56" class="time">08:43</a></td></tr>
+<tr id="t08:44:05"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">I may make the whole localIO use curses</td><td class="time"><a href="#t08:44:05" class="time">08:44</a></td></tr>
+<tr id="t08:44:10"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">they might do that on windows too</td><td class="time"><a href="#t08:44:10" class="time">08:44</a></td></tr>
+<tr id="t08:44:13"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">just a thought - share code</td><td class="time"><a href="#t08:44:13" class="time">08:44</a></td></tr>
+<tr id="t08:44:15"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">that's a plus</td><td class="time"><a href="#t08:44:15" class="time">08:44</a></td></tr>
+<tr id="t08:44:26"><th class="nick" style="background: #42427e">GranitePenguin</th><td class="text" style="color: #42427e">that's crazy talk</td><td class="time"><a href="#t08:44:26" class="time">08:44</a></td></tr>
+<tr id="t08:44:58"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">hehee</td><td class="time"><a href="#t08:44:58" class="time">08:44</a></td></tr>
+<tr id="t08:47:54"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">yup... just a dream</td><td class="time"><a href="#t08:47:54" class="time">08:47</a></td></tr>
+<tr id="t09:54:36"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) left irc: Connection reset by peer</td><td><a href="#t09:54:36" class="time">09:54</a></td></tr>
+<tr id="t17:09:00"><td class="other" colspan="2">rushfan (sid23580@osprey-AD9B785B.irccloud.com) left irc: Connection reset by peer</td><td><a href="#t17:09:00" class="time">17:09</a></td></tr>
+<tr id="t17:17:44"><td class="other" colspan="2">rushfan (sid23580@osprey-AD9B785B.irccloud.com) joined #wwiv.</td><td><a href="#t17:17:44" class="time">17:17</a></td></tr>
+<tr id="t18:15:55"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) joined #wwiv.</td><td><a href="#t18:15:55" class="time">18:15</a></td></tr>
+<tr id="t18:58:44"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) left irc: Connection reset by peer</td><td><a href="#t18:58:44" class="time">18:58</a></td></tr>
+<tr id="t19:00:32"><td class="other" colspan="2">emoney_ (emoney@osprey-D0294C2B.washdc.fios.verizon.net) joined #wwiv.</td><td><a href="#t19:00:32" class="time">19:00</a></td></tr>
+<tr id="t19:04:59"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Yo</td><td class="time"><a href="#t19:04:59" class="time">19:04</a></td></tr>
+<tr id="t19:06:35"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Sup</td><td class="time"><a href="#t19:06:35" class="time">19:06</a></td></tr>
+<tr id="t19:07:13"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">heh</td><td class="time"><a href="#t19:07:13" class="time">19:07</a></td></tr>
+<tr id="t19:07:14"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">./bbs -w</td><td class="time"><a href="#t19:07:14" class="time">19:07</a></td></tr>
+<tr id="t19:07:14"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">BBS Terminated by exception: Screen height must be at least 25, was: 24</td><td class="time"><a href="#t19:07:14" class="time">19:07</a></td></tr>
+<tr id="t19:07:26"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">neat. works :)</td><td class="time"><a href="#t19:07:26" class="time">19:07</a></td></tr>
+<tr id="t19:10:17"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">DirEdit works from -w. nice</td><td class="time"><a href="#t19:10:17" class="time">19:10</a></td></tr>
+<tr id="t19:12:25"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Yup</td><td class="time"><a href="#t19:12:25" class="time">19:12</a></td></tr>
+<tr id="t19:12:29"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Thx for trying it</td><td class="time"><a href="#t19:12:29" class="time">19:12</a></td></tr>
+<tr id="t19:12:34"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">It's lots of new code</td><td class="time"><a href="#t19:12:34" class="time">19:12</a></td></tr>
+<tr id="t19:12:47"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">works on centos 7 :) heh</td><td class="time"><a href="#t19:12:47" class="time">19:12</a></td></tr>
+<tr id="t19:13:24"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Eventually that'll be the node manager etc for all platforms</td><td class="time"><a href="#t19:13:24" class="time">19:13</a></td></tr>
+<tr id="t19:13:37"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">good job on this. </td><td class="time"><a href="#t19:13:37" class="time">19:13</a></td></tr>
+<tr id="t19:13:44"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Will do the new callouts and listen to binkp</td><td class="time"><a href="#t19:13:44" class="time">19:13</a></td></tr>
+<tr id="t19:13:45"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Eye</td><td class="time"><a href="#t19:13:45" class="time">19:13</a></td></tr>
+<tr id="t19:13:50"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Etc</td><td class="time"><a href="#t19:13:50" class="time">19:13</a></td></tr>
+<tr id="t19:13:52"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Thx</td><td class="time"><a href="#t19:13:52" class="time">19:13</a></td></tr>
+<tr id="t19:14:12"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">try to build the latest once a week to play around with it</td><td class="time"><a href="#t19:14:12" class="time">19:14</a></td></tr>
+<tr id="t19:14:41"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">Glad to hear it</td><td class="time"><a href="#t19:14:41" class="time">19:14</a></td></tr>
+<tr id="t19:16:07"><td class="other" colspan="2">Nick change: Venom|Away -&gt; Venom</td><td><a href="#t19:16:07" class="time">19:16</a></td></tr>
+<tr id="t19:16:23"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">[11] [PPP project]: G</td><td class="time"><a href="#t19:16:23" class="time">19:16</a></td></tr>
+<tr id="t19:16:23"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">[DEBUG: Read errno: 21 -- Please screen capture this and email to Rushfan]</td><td class="time"><a href="#t19:16:23" class="time">19:16</a></td></tr>
+<tr id="t19:16:24"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">heh</td><td class="time"><a href="#t19:16:24" class="time">19:16</a></td></tr>
+<tr id="t19:16:50"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">On gfile edit?</td><td class="time"><a href="#t19:16:50" class="time">19:16</a></td></tr>
+<tr id="t19:16:57"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">just typed &quot;g&quot;</td><td class="time"><a href="#t19:16:57" class="time">19:16</a></td></tr>
+<tr id="t19:18:17"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">ah, because I have none :)</td><td class="time"><a href="#t19:18:17" class="time">19:18</a></td></tr>
+<tr id="t19:20:05"><th class="nick" style="background: #854685">Venom</th><td class="text" style="color: #854685">Yesterdays logs are up</td><td class="time"><a href="#t19:20:05" class="time">19:20</a></td></tr>
+<tr id="t19:25:30"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">thanks venom</td><td class="time"><a href="#t19:25:30" class="time">19:25</a></td></tr>
+<tr id="t19:25:40"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">did it crash?</td><td class="time"><a href="#t19:25:40" class="time">19:25</a></td></tr>
+<tr id="t19:25:49"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">anyway I'll try to remember</td><td class="time"><a href="#t19:25:49" class="time">19:25</a></td></tr>
+<tr id="t19:27:49"><th class="nick" style="background: #818144">LJ007</th><td class="text" style="color: #818144">nope</td><td class="time"><a href="#t19:27:49" class="time">19:27</a></td></tr>
+<tr id="t19:29:38"><th class="nick" style="background: #854685">Venom</th><td class="text" style="color: #854685">yw</td><td class="time"><a href="#t19:29:38" class="time">19:29</a></td></tr>
+<tr id="t19:38:48"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) joined #wwiv.</td><td><a href="#t19:38:48" class="time">19:38</a></td></tr>
+<tr id="t20:43:46"><th class="nick" style="background: #854685">Venom</th><td class="text" style="color: #854685">bed time</td><td class="time"><a href="#t20:43:46" class="time">20:43</a></td></tr>
+<tr id="t20:43:47"><th class="nick" style="background: #854685">Venom</th><td class="text" style="color: #854685">night</td><td class="time"><a href="#t20:43:47" class="time">20:43</a></td></tr>
+<tr id="t20:43:51"><td class="other" colspan="2">Nick change: Venom -&gt; Venom|Away</td><td><a href="#t20:43:51" class="time">20:43</a></td></tr>
+<tr id="t20:53:14"><td class="other" colspan="2">FCReid (FCReid@osprey-4C334D4B.public.wayport.net) left irc: Connection reset by peer</td><td><a href="#t20:53:14" class="time">20:53</a></td></tr>
+<tr id="t00:00:10"><td class="servermsg" colspan="2">--- Wed Feb  4 2015</td><td><a href="#t00:00:10" class="time">00:00</a></td></tr>
+</table>
+
+<div class="generatedby">
+<p>Generated by irclog2html.py 2.13.1 by <a href="mailto:marius@pov.lt">Marius Gedminas</a>
+ - find it at <a href="http://mg.pov.lt/irclog2html/">mg.pov.lt</a>!</p>
+</div>
+</body>
+</html>
