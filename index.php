@@ -14,7 +14,7 @@ Thanks for stopping by<br />
 <br />
 This page is always under construction, please check back regularly<br />
 <br />
-Please visit <a href="http://venomslair.com/blog">here</a> to see all important messages regarding the website<br />
+Please visit <a href="announcements.php">here</a> to see all important messages regarding the website<br />
 <br />
 <span class="boldunder">Time from NIST</span><br />
 <?php include('nist.php'); ?>
