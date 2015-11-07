@@ -9,9 +9,9 @@
 <!--05/15/2015 - Removed this as its no longer being used 
 Going to renable this, not sure if it works
 <a href="../../keys.php">My Public Keys</a><br />-->
-<!-- I think I may add this, not sure yet
-<a href="../../todo.txt">My To-do list</a>-->
-<a href="../../blog">My Blog</a><br />
+<a href="../../todo.txt">My To-do list</a>
+<!--Removed this as I don't think I will use it anymore
+<a href="../../blog">My Blog</a><br />-->
 <!-- Added link to the photo album -->
 <a href="http://www.flickr.com/people/venom49637">My Photos</a><br />
 <a href="http://www.youtube.com/venom49637">My YouTube</a><br />
