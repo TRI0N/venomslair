@@ -12,6 +12,10 @@
 <span class="boldunder">Networks</span><br />
 <a href="http://ospreynet.info">Osprey Networks</a><br />
 <br />
+<span class="boldunder">IRC Webclient</span><br />
+<?php include('mibbit.php'); ?>
+<br />
+<br />
 <span class="boldunder">IRC Stats</span><br />
 <a href="/ircstats/osprey.html">#osprey Channel Stats</a><br />
 <a href="/ircstats/wwiv.html">#wwiv Channel Stats</a></br />
