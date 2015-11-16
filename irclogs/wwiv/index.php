@@ -14,9 +14,12 @@
 <div id="content"><span class="titles">IRC logs of #wwiv</span><br />
 <ul>
 <span class="titles">2015</span>
-<li>11-12 (Thursday) - Available Soon</li>
+<li>11-15 (Sunday) - Available Soon</li>
 <!--Putting Link for logs when they go live
-<li><a href="wwiv.log.20151112.html">11-12 (Thursday)</a></li>-->
+<li><a href="wwiv.log.20151115.html">11-15 (Sunday)</a></li>-->
+<li><a href="wwiv.log.20151114.html">11-14 (Saturday)</a></li>
+<li><a href="wwiv.log.20151113.html">11-13 (Friday)</a></li>
+<li><a href="wwiv.log.20151112.html">11-12 (Thursday)</a></li>
 <li><a href="wwiv.log.20151111.html">11-11 (Wednesday)</a></li>
 <li><a href="wwiv.log.20151110.html">11-10 (Tuesday)</a></li>
 <li><a href="wwiv.log.20151109.html">11-09 (Monday)</a></li>
