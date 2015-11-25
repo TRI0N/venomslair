@@ -14,9 +14,12 @@
 <div id="content"><span class="titles">IRC logs of #osprey</span><br />
 <ul>
 <span class="titles">2015</span>
-<li>11-22 (Sunday) - Available Soon</li>
+<li>11-25 (Thursday) - Available Soon</li>
 <!--Putting Link for logs when they go live
-<li><a href="osprey.log.20151122.html">11-22 (Sunday)</a></li>-->
+<li><a href="osprey.log.20151125.html">11-25 (Thursday)</a></li>-->
+<li><a href="osprey.log.20151124.html">11-24 (Wednesday)</a></li>
+<li><a href="osprey.log.20151123.html">11-23 (Tuesday)</a></li>
+<li><a href="osprey.log.20151122.html">11-22 (Monday)</a></li>
 <li><a href="osprey.log.20151121.html">11-21 (Saturday)</a></li>
 <li><a href="osprey.log.20151120.html">11-20 (Friday)</a></li>
 <li><a href="osprey.log.20151119.html">11-19 (Thursday)</a></li>
