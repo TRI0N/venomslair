@@ -19,7 +19,5 @@ Going to renable this, not sure if it works
 <a href="http://twitter.com/venom49637">My Twitter</a><br />
 <a href="../../games.php">My Console Games</a><br />
 <a href="../../minecraft.php">Minecraft</a><br />
-<!-- This hasn't been implemented yet
-<a href="videos.php">My Favorite Videos</a><br /> -->
 <a href="../../links.php">Links</a><br />
-<a href="../../contact.php">Contact Me</a></div>
+<a href="../../contact.php">Contact Me</a>
