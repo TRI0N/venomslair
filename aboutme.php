@@ -48,7 +48,7 @@ Almost Human<br />
 Forever<br />
 Perception<br />
 <br />
-</span><span class="boldunder">My Personal Interests</span><br />
+<span class="boldunder">My Personal Interests</span><br />
 Photography - To see some of the photos that I have taken, click the link above<br />
 Forensic Science<br />
 Building Websites<br />
