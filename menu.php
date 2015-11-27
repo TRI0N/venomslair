@@ -6,9 +6,6 @@
 <a href="http://www.facebook.com/groups/venomslair">Facebook Group</a><br />
 <!--Moved up to make it easier to see -->
 <a href="http://venomslair.freshdesk.com">Help Desk</a><br />
-<!--05/15/2015 - Removed this as its no longer being used 
-Going to renable this, not sure if it works
-<a href="../../keys.php">My Public Keys</a><br />-->
 <a href="../../todo.php">My To-do list</a><br />
 <!--Removed this as I don't think I will use it anymore
 <a href="../../blog">My Blog</a><br />-->
