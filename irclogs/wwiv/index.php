@@ -7,16 +7,19 @@
   <meta name="version" content="2.13.1 - 2013-12-18" />
 </head>
 <body>
-<div style="margin 5px; float: right;"><?php include('../../adsense.php'); ?></div>
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
 <img src="../../navimages/mast.jpg" width="700" height="100" border="0" alt="mast.jpg" />
 <div id="menu"><?php include('../../menu.php'); ?></div>
-<div id="content"><span class="titles">IRC logs of #wwiv</span><br />
+<div id="content">
+<span class="titles">IRC logs of #wwiv</span>
+<br />
+<br />
 <span class="titles">2015</span>
 <ul>
-<li>11-25 (Wednesday) - Available Soon</li>
+<li>11-26 (Thursday) - Available Soon</li>
 <!--Putting Link for logs when they go live
-<li><a href="wwiv.log.20151125.html">11-25 (Wednesday)</a></li>-->
+<li><a href="wwiv.log.20151126.html">11-26 (Thursday)</a></li>-->
+<li><a href="wwiv.log.20151125.html">11-25 (Wednesday)</a></li>
 <li><a href="wwiv.log.20151124.html">11-24 (Tuesday)</a></li>
 <li><a href="wwiv.log.20151123.html">11-23 (Monday)</a></li>
 <li><a href="wwiv.log.20151122.html">11-22 (Sunday)</a></li>
