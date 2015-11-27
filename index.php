@@ -4,7 +4,6 @@
 <?php include('header.php'); ?> 
 </head>
 <body>
-<div style="margin 5px; float: right;"><?php include('adsense.php'); ?></div><br />
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
 <div id="menu"><?php include('menu.php'); ?></div>
 <div id="content">

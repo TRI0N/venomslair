@@ -5,7 +5,6 @@
     </head>
     <body>
         <div style="display: none;"><a href="http://venomslair.com/crook.php">depth</a></div>
-        <div style="margin 5px; float: right;"><?php include('adsense.php'); ?></div><br />
         <div id="menu"><?php include('menu.php'); ?></div>
         <div id="content">
             <span class="titles">How to contact me</span>
