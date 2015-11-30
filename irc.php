@@ -31,13 +31,15 @@
 <a href="http://www.colloquy.info">Colloquy - Mac IRC Client</a><br />
 <a href="http://www.androirc.com">AndroIRC - Android IRC Client</a><br />
 <br />
-
 All commands for the bots are located <a href="http://venomslair.freshdesk.com/solution/folders/1000219168">here</a><br />
 <br />
 <span class="boldunder">FAQ's</span><br />
 <br />
 <span class="underline">How in the world do I connect to IRC?</span><br />
 Download one of the clients above and then configure it to connect to irc.ospreynet.info.  The specific directions on how to configure each client will be available on that clients website.  You can also connect via our website at <a href="http://ospreynet.info">ospreynet.info</a> and click on IRC at the top of the page.<br />
+<br />
+<span class="underline">I want to connect to the Secure port in mIRC, how do I do that?</span><br />
+You need to put a + sign in front of the port number, ex. +7777, this way mIRC knows it needs to enable SSL<br />
 <br />
 <span class="underline">I have a client that I would like you to include on your list, who do I contact to do that?</span><br />
 <a href="http://venomslair.freshdesk.com">Click Here</a> and submit it for me to look at.<br />
