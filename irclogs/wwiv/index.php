@@ -16,12 +16,18 @@
 <br />
 <span class="titles">2016</span>
 <ul>
-    <!--<li>01-03 (Sunday) - Available Soon</li>-->
+    <li>01-11 (Monday) - Available Soon</li>
     <!--Putting Link for logs when they go live
-    <li><a href="wwiv.log.20160103.html">01-03 (Sunday)</a></li>-->
-    <li>01-02 (Saturday) - Available Soon</li>
-    <!--Putting Link for logs when they go live
-    <li><a href="wwiv.log.20160102.html">01-02 (Saturday)</a></li>-->
+    <li><a href="wwiv.log.20160111.html">01-11 (Monday)</a></li>-->
+    <li><a href="wwiv.log.20160110.html">01-10 (Sunday)</a></li>
+    <li><a href="wwiv.log.20160109.html">01-09 (Saturday)</a></li>
+    <li><a href="wwiv.log.20160108.html">01-08 (Friday)</a></li>
+    <li><a href="wwiv.log.20160107.html">01-07 (Thursday)</a></li>
+    <li><a href="wwiv.log.20160106.html">01-06 (Wednesday)</a></li>
+    <li><a href="wwiv.log.20160105.html">01-05 (Tuesday)</a></li>
+    <li><a href="wwiv.log.20160104.html">01-04 (Monday)</a></li>
+    <li><a href="wwiv.log.20160103.html">01-03 (Sunday)</a></li>
+    <li><a href="wwiv.log.20160102.html">01-02 (Saturday)</a></li>
     <li><a href="wwiv.log.20160101.html">01-01 (Friday)</a></li>
 </ul>
 <span class="titles">2015</span>
