@@ -20,7 +20,7 @@ Hawaii - Been on Oahu and Maui<br />
 <br />
 <span class="boldunder">My Favorite Types of Music</span><br />
 I like all types of music below are few that I listen to all the time<br />
-Dubstep<br />
+EDM<br />
 Metal - All genres<br />
 Screamo<br />
 Classic Rock<br />
@@ -40,6 +40,7 @@ Madam Secretary<br />
 Scorpion<br />
 Property Brothers<br />
 Income Property<br />
+Fixer Upper<br />
 <br />
 <span class="boldunder">My Favorite shows that are no longer on TV</span><br />
 King & Maxwell<br />
@@ -57,6 +58,7 @@ Unix<br />
 Weather<br />
 BBSing<br />
 Computers<br />
+IRC
 <br />
 <span class="boldunder">Current Projects</span><br />
 I usually dont have anything to report in this section, but I am learning PHP and mySQL so I can make mass improvements to this website.  I am very excited on what I can do to improve the site.<br />
