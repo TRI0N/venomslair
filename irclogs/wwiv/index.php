@@ -16,9 +16,12 @@
 <br />
 <span class="titles">2016</span>
 <ul>
-    <li>01-11 (Monday) - Available Soon</li>
+    <li>01-14 (Thursday) - Available Soon</li>
     <!--Putting Link for logs when they go live
-    <li><a href="wwiv.log.20160111.html">01-11 (Monday)</a></li>-->
+    <li><a href="wwiv.log.20160114.html">01-14 (Monday)</a></li>-->
+    <li><a href="wwiv.log.20160113.html">01-13 (Wednesday)</a></li>
+    <li><a href="wwiv.log.20160112.html">01-12 (Tuesday)</a></li>
+    <li><a href="wwiv.log.20160111.html">01-11 (Monday)</a></li>
     <li><a href="wwiv.log.20160110.html">01-10 (Sunday)</a></li>
     <li><a href="wwiv.log.20160109.html">01-09 (Saturday)</a></li>
     <li><a href="wwiv.log.20160108.html">01-08 (Friday)</a></li>
