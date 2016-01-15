@@ -17,7 +17,7 @@
             full attribution)<br />
             <br />
             <span class="boldunder">Current Version</span><br />
-            1.8.8<br />
+            1.8.9<br />
             <br />
             <span class="boldunder">Here are a some links</span><br />
             <a href="http://www.minecraft.net">Offical Minecraft Site</a><br />
