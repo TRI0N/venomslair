@@ -14,12 +14,6 @@
 <a href="http://www.microsoft.com">Microsoft</a><br />
 <a href="http://www.apple.com">Apple</a><br />
 <br />
-<span class="boldunder">Weather Related Sites</span><br />
-<a href="http://www.weather.com">The Weather Channel</a><br />
-<a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
-<a href="http://www.wunderground.com">Weather Underground</a><br />
-<a href="http://www.accuweather.com">Accuweather</a><br />
-<br />
 <span class="boldunder">Videos</span><br />
 <a href="http://www.youtube.com">YouTube</a><br />
 <a href="http://www.vine.co">Vine</a><br />
