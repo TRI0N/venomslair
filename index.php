@@ -24,7 +24,9 @@
                 <br />
                 <span class="boldunder">Here is the weather where I live</span><br />
                 <br />
-                <?php include('weather.php'); ?>
+                <?php include('accuweather.php'); ?>
+                <br />
+                Click <a href="weather.php">here</a> for more weather information<br />
                 <br />
                 <?php include('footer.php'); ?>
                 </div>

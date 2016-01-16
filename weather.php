@@ -1,3 +1,28 @@
-<!-- Start of Accuweather Code -->
-<div style='width: 500px; height: 440px; background-image: url( http://vortex.accuweather.com/adcbin/netweather_v2/backgrounds/lightning_500x440_bg.jpg ); background-repeat: no-repeat; background-color: #000000;' ><div id='NetweatherContainer' style='height: 420px;' ><script src='http://netweather.accuweather.com/adcbin/netweather_v2/netweatherV2ex.asp?partner=netweather&tStyle=dark2&logo=1&zipcode=55436&lang=eng&size=13&theme=lightning&metric=0&target=_self'></script></div><div style='text-align: center; font-family: arial, helvetica, verdana, sans-serif; font-size: 12px; line-height: 20px; color: #FDEA11;' ><a style='color: #FDEA11' href='http://www.accuweather.com/us/mn/minneapolis/55436/city-weather-forecast.asp?partner=accuweather' >Weather Forecast</a>|<a style='color: #FDEA11' href='http://www.accuweather.com/maps-satellite.asp' >Weather Maps</a>|<a style='color: #FDEA11' href='http://www.accuweather.com/index-radar.asp?partner=accuweather&zipcode=55436' >Weather Radar</a>|<a style='color: #FDEA11' href='http://hurricane.accuweather.com/hurricane/index.asp' >Hurricane Center</a></div></div>
-<!-- End of Accuweather Code -->
+<html>
+    <head>
+        <title>Weather</title>
+        <?php include('header.php'); ?>
+        </head>
+        <body>
+            <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
+            <div id="menu"><?php include('menu.php'); ?></div>
+            <div id="content">
+                <br />
+                <span class="boldunder">Weather Related Sites</span><br />
+                <a href="http://www.weather.com">The Weather Channel</a><br />
+                <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
+                <a href="http://www.wunderground.com">Weather Underground</a><br />
+                <a href="http://www.accuweather.com">Accuweather</a><br />
+                <br />
+                <br />
+                <a href="http://www.accuweather.com/en/us/minneapolis-mn/55436/weather-forecast/24138_pc" class="aw-widget-legal">
+                <!--
+                By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at 
+                http://www.accuweather.com/en/privacy.
+                -->
+                </a><div id="awtd1452918264891" class="aw-widget-36hour"  data-locationkey="" data-unit="f" data-language="en-us" data-useip="true" data-uid="awtd1452918264891" data-editlocation="true"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+                <br />
+                <?php include('footer.php') ?>
+            </div>
+        </body>
+</html>
