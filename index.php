@@ -7,7 +7,7 @@
             <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
             <div id="menu"><?php include('menu.php'); ?></div>
             <div id="content">
-                <span class="titles">Welcome to my homepage</span><br />
+                <span class="titles">Welcome to my page</span><br />
                 <br />
                 Thanks for stopping by<br />
                 <br />

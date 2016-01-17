@@ -58,10 +58,10 @@ Unix<br />
 Weather<br />
 BBSing<br />
 Computers<br />
-IRC
+IRC<br />
 <br />
 <span class="boldunder">Current Projects</span><br />
-I usually dont have anything to report in this section, but I am learning PHP and mySQL so I can make mass improvements to this website.  I am very excited on what I can do to improve the site.<br />
+I usually dont have anything to report in this section, but I am learning PHP, JQuery and mySQL so I can make mass improvements to this website.  I am very excited on what I can do to improve the site.<br />
 <br />
 <?php include("footer.php"); ?>
 </div>
