@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>wwiv.log.20151214</title>
+  <link rel="stylesheet" href="../../css/mySTYLE.css" />
+  <meta name="generator" content="irclog2html.py 2.14.0 by Marius Gedminas" />
+  <meta name="version" content="2.14.0 - 2014-12-12" />
+</head>
+<body>
+<h1>wwiv.log.20151214</h1>
+<table class="irclog">
+<tr id="t00:18:04"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">SeverityCodeDescriptionProjectFileLineSuppression State</td><td class="time"><a href="#t00:18:04" class="time">00:18</a></td></tr>
+<tr id="t00:18:04"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">ErrorUnable to find manifest signing certificate in the certificate store.wwiv-update</td><td class="time"><a href="#t00:18:04" class="time">00:18</a></td></tr>
+<tr id="t00:18:11"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">I get that error trying to build wwiv-update</td><td class="time"><a href="#t00:18:11" class="time">00:18</a></td></tr>
+<tr id="t01:07:41"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Oh you tried to build it rather than download the exe?</td><td class="time"><a href="#t01:07:41" class="time">01:07</a></td></tr>
+<tr id="t01:07:56"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">I will check to make sure all the files are there..</td><td class="time"><a href="#t01:07:56" class="time">01:07</a></td></tr>
+<tr id="t01:39:37"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Fixed it Rush.. I removed the Self Signed Cert for public builds.</td><td class="time"><a href="#t01:39:37" class="time">01:39</a></td></tr>
+<tr id="t01:44:31"><th class="nick" style="background: #818144">peaboy</th><td class="text" style="color: #818144">rushfan: Why use your personal Google drive to do releases when there are releases builtin to GitHub?</td><td class="time"><a href="#t01:44:31" class="time">01:44</a></td></tr>
+<tr id="t07:31:51"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">Building an updater in linux is a bit overkill</td><td class="time"><a href="#t07:31:51" class="time">07:31</a></td></tr>
+<tr id="t07:32:27"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">The biggest issue with using python is it is not ubiqutous, especially in Windows</td><td class="time"><a href="#t07:32:27" class="time">07:32</a></td></tr>
+<tr id="t07:33:32"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">and as much as I like the idea of using Python 3, it isn't installed on most distributions</td><td class="time"><a href="#t07:33:32" class="time">07:33</a></td></tr>
+<tr id="t07:33:55"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">Python 2 is installed everywhere</td><td class="time"><a href="#t07:33:55" class="time">07:33</a></td></tr>
+<tr id="t07:34:44"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">but if you really feel the need for an updater, a simple bash shell script is a better choice</td><td class="time"><a href="#t07:34:44" class="time">07:34</a></td></tr>
+<tr id="t07:36:33"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">There's also the issue that many linux installs will be compiling from source, not using the prebuilt binaries</td><td class="time"><a href="#t07:36:33" class="time">07:36</a></td></tr>
+<tr id="t07:40:34"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">so you really shouldn't knock yourself out trying to get too sophisticated.</td><td class="time"><a href="#t07:40:34" class="time">07:40</a></td></tr>
+<tr id="t08:32:57"><th class="nick" style="background: #854685">GranitePenguin</th><td class="text" style="color: #854685">xenos: yeah, I saw it too.&nbsp;&nbsp;I have to have moolah before you can take it :)</td><td class="time"><a href="#t08:32:57" class="time">08:32</a></td></tr>
+<tr id="t08:36:41"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40"><a href="https://github.com/wwivbbs/wwiv/releases/tag/wwiv_5.0.0" rel="nofollow">https://github.com/wwivbbs/wwiv/releases/tag/wwiv_5.0.0</a></td><td class="time"><a href="#t08:36:41" class="time">08:36</a></td></tr>
+<tr id="t08:36:47"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">there y'all go - github release</td><td class="time"><a href="#t08:36:47" class="time">08:36</a></td></tr>
+<tr id="t08:36:54"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">please use that url</td><td class="time"><a href="#t08:36:54" class="time">08:36</a></td></tr>
+<tr id="t08:56:11"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">docs look good, looks like you can do mkdocs gh-deploy and then the docs should become live automatically at www.wwivbbs.org/docs according to the naming of our custom domain, etc...</td><td class="time"><a href="#t08:56:11" class="time">08:56</a></td></tr>
+<tr id="t08:56:22"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">tri0n, I've not been home, sorry can't try the script</td><td class="time"><a href="#t08:56:22" class="time">08:56</a></td></tr>
+<tr id="t13:50:11"><td class="other" colspan="2">TRI0N (tri0n@osprey-EC863576.socal.res.rr.com) left irc: Input/output error</td><td><a href="#t13:50:11" class="time">13:50</a></td></tr>
+<tr id="t15:09:35"><td class="other" colspan="2">TRI0N (tri0n@osprey-EC863576.socal.res.rr.com) joined #wwiv.</td><td><a href="#t15:09:35" class="time">15:09</a></td></tr>
+<tr id="t17:45:14"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">That's exactally what I said.. The idea was someone thought you would want one.. I was think you were more of a console guy and could care less for a updater.</td><td class="time"><a href="#t17:45:14" class="time">17:45</a></td></tr>
+<tr id="t18:13:42"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">The other problem which I have on my list for the current updater is to search for the wwiv directory. Right now it looks for c:\wwiv and someone could very well be running it from a differnt drive.. </td><td class="time"><a href="#t18:13:42" class="time">18:13</a></td></tr>
+<tr id="t18:14:08"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">That would pose as a problem with linux as well being sda..</td><td class="time"><a href="#t18:14:08" class="time">18:14</a></td></tr>
+<tr id="t19:25:31"><td class="other" colspan="2">JimmyMac (jim@osprey-1B636F63.bsbbs.com) joined #wwiv.</td><td><a href="#t19:25:31" class="time">19:25</a></td></tr>
+<tr id="t20:29:07"><td class="other" colspan="2">JimmyMac (jim@osprey-1B636F63.bsbbs.com) left irc: Quit: Give a man a fish and he will eat for a day. Teach him how to fish, and he will sit in a boat and drink beer all day</td><td><a href="#t20:29:07" class="time">20:29</a></td></tr>
+<tr id="t21:57:55"><td class="other" colspan="2">GitHub150 (GitHub150@F5304A3.331E7929.FE5CAB8D.IP) joined #wwiv.</td><td><a href="#t21:57:55" class="time">21:57</a></td></tr>
+<tr id="t21:57:55"><td class="other" colspan="2">-GitHub150:#wwiv- [13wwiv] 15wwiv pushed 2 new commits to 06master: 02<a href="https://github.com/wwivbbs/wwiv/compare/66424f417767...dc31427fcdef" rel="nofollow">https://github.com/wwivbbs/wwiv/compare/66424f417767...dc31427fcdef</a></td><td><a href="#t21:57:55" class="time">21:57</a></td></tr>
+<tr id="t21:57:55"><td class="other" colspan="2">-GitHub150:#wwiv- 13wwiv/06master 146794852 15RushFan: In one of the cleanups, stopped checking for abort in read_message....</td><td><a href="#t21:57:55" class="time">21:57</a></td></tr>
+<tr id="t21:57:55"><td class="other" colspan="2">-GitHub150:#wwiv- 13wwiv/06master 14dc31427 15Rushfan: Merge pull request #472 from wwiv/master...</td><td><a href="#t21:57:55" class="time">21:57</a></td></tr>
+<tr id="t21:57:55"><td class="other" colspan="2">GitHub150 (GitHub150@F5304A3.331E7929.FE5CAB8D.IP) left #wwiv.</td><td><a href="#t21:57:55" class="time">21:57</a></td></tr>
+<tr id="t23:13:15"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">howdy</td><td class="time"><a href="#t23:13:15" class="time">23:13</a></td></tr>
+<tr id="t23:23:28"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Hey there..</td><td class="time"><a href="#t23:23:28" class="time">23:23</a></td></tr>
+<tr id="t23:30:23"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">howdy</td><td class="time"><a href="#t23:30:23" class="time">23:30</a></td></tr>
+<tr id="t23:30:45"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Hey there.. ;) lol</td><td class="time"><a href="#t23:30:45" class="time">23:30</a></td></tr>
+<tr id="t23:31:12"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">what's up tonight... </td><td class="time"><a href="#t23:31:12" class="time">23:31</a></td></tr>
+<tr id="t23:31:38"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Not much just watching flix..</td><td class="time"><a href="#t23:31:38" class="time">23:31</a></td></tr>
+<tr id="t23:35:15"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">sounds like a plan</td><td class="time"><a href="#t23:35:15" class="time">23:35</a></td></tr>
+<tr id="t23:35:23"><th class="nick" style="background: #407a40">rushfan</th><td class="text" style="color: #407a40">trying to get a few minutes of coding in before bedtime</td><td class="time"><a href="#t23:35:23" class="time">23:35</a></td></tr>
+<tr id="t23:35:47"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Sounds good.. </td><td class="time"><a href="#t23:35:47" class="time">23:35</a></td></tr>
+<tr id="t23:48:06"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">Been running a recovery (multi-pass) on a clients hard drive that was whipped by a employee they fired.. So far after 8 Hours is recovered 187,000 + files.. What a pain the butt..</td><td class="time"><a href="#t23:48:06" class="time">23:48</a></td></tr>
+<tr id="t23:48:39"><th class="nick" style="background: #42427e">TRI0N</th><td class="text" style="color: #42427e">And it's only 54% complete..</td><td class="time"><a href="#t23:48:39" class="time">23:48</a></td></tr>
+<tr id="t00:00:54"><td class="servermsg" colspan="2">--- Tue Dec 15 2015</td><td><a href="#t00:00:54" class="time">00:00</a></td></tr>
+</table>
+
+<div class="generatedby">
+<p>Generated by irclog2html.py 2.14.0 by <a href="mailto:marius@pov.lt">Marius Gedminas</a>
+ - find it at <a href="http://mg.pov.lt/irclog2html/">mg.pov.lt</a>!</p>
+</div>
+</body>
+</html>
