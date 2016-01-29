@@ -210,4 +210,9 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+#  Zip Files
 *.zip
+
+# Mac DS Store
+.DS Store
