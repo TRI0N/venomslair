@@ -46,7 +46,6 @@ function display_db_table($tablename, $connection, $header_bool, $table_params) 
 <?php include('header.php'); ?>
 </head>
 <body>
-	<div style="margin 5px; float: right;"><?php include('adsense.php'); ?><br /></div>
 	<div id="menu"><?php include('menu.php'); ?></div>	
 <div id="content">
 <span class="boldmed">This will be updated as I get new games and I am able add them to the database</span><br />
