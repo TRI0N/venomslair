@@ -216,3 +216,7 @@ ModelManifest.xml
 
 # Mac DS Store
 .DS Store
+
+# Back up files
+*.bak
+
