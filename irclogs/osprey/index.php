@@ -15,9 +15,10 @@
 <br />
 <span class="titles">2016</span>
 <ul>
-    <li>02-02 (Tuesday) - Available Soon</li>
+    <li>02-03 (Wednesday) - Available Soon</li>
     <!--Putting Link for logs when they go live
-    <li><a href="osprey.log.20160202.html">02-02 (Tuesday)</a></li>-->
+    <li><a href="osprey.log.20160203.html">02-03 (Wednesday)</a></li>-->
+    <li><a href="osprey.log.20160202.html">02-02 (Tuesday)</a></li>
     <li><a href="osprey.log.20160201.html">02-01 (Monday)</a></li>
     <li><a href="osprey.log.20160131.html">01-31 (Sunday)</a></li>
     <li><a href="osprey.log.20160130.html">01-30 (Saturday)</a></li>
