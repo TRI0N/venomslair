@@ -145,3 +145,7 @@ h3 {
     margin-right: 0;
     padding-left: 40px;
 }
+#log_selector td {
+	text-align: center;
+	padding: 5px;
+}
