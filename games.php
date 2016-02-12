@@ -62,6 +62,8 @@ I have a XBOX One and I play on XBOX Live.  I am mostly playing GTA V and World 
 $table = "games";
 
 display_db_table($table, $global_dbh, TRUE, "border='1'");
+
+mysql_close($global_dbh);
 ?>
 </td>
 </tr>
