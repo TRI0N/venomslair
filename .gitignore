@@ -222,3 +222,6 @@ ModelManifest.xml
 
 # htaccess
 .htaccess
+
+# error_log
+error_log
