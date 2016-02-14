@@ -1,10 +1,5 @@
-<html>
-<head>
-    <title>My To-Do List</title>
-    <?php include('header.php'); ?>
-</head>
-<body>
-<div id="menu"><?php include('menu.php'); ?></div>
+<title>My To-Do List</title>
+<?php include('header.php'); ?>
 <div id="content">
 <span class="titles">My To-Do List</span><br />
 <br />
@@ -18,6 +13,3 @@ to added or fixed, please let me know.
 <br />
 <br />
 <?php include('footer.php'); ?>
-</div>
-</body>
-</html>

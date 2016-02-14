@@ -1,12 +1,5 @@
 # added this page on September 13, 2013
-<html>
-<head>
-<title>IRC</title>
 <?php include('header.php'); ?>
-</head>
-<body>
-<div id="menu"><?php include('menu.php'); ?></div>
-<a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
 <div id="content">
 <span class="boldunder">Networks</span><br />
 <a href="http://ospreynet.info">Osprey Networks</a><br />
@@ -54,6 +47,3 @@ If you were banned and you believe that you have been banned in error, you can <
 Well, unfortunately I cannot help you with that one.<br />
 <br />
 <?php include('footer.php'); ?>
-</div>
-</body>
-</html>
