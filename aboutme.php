@@ -1,10 +1,6 @@
-<html>
-    <head>
-        <title>About Me</title>
-        <?php include('header.php'); ?>
-    </head>
-    <body>
-        <div id="menu"><?php include('menu.php'); ?></div>
+<?php include ('header.php'); ?>
+<title>About Me</title>
+</head>    
         <div id="content">
             <div style="display: none;"><a href="http://venomslair.com/crook.php">depth</a></div>
             <span class="boldunder">Where I live now</span><br />
@@ -63,8 +59,3 @@
             <span class="boldunder">Current Projects</span><br />
             I usually dont have anything to report in this section, but I am learning PHP, JQuery and mySQL so I can make mass
             improvements to this website.  I am very excited on what I can do to improve the site.<br />
-            <br />
-            <?php include("footer.php"); ?>
-        </div>
-    </body>
-</html>

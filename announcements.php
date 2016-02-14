@@ -1,10 +1,4 @@
-<html>
-<head>
-    <title>Announcements</title>
-    <?php include('header.php'); ?>
-</head>
-<body>
-<div id="menu"><?php include('menu.php'); ?></div>
+<?php include('header.php'); ?>
 <div id="content">
 <span class="titles">Announcements</span><br />
 <br />
@@ -20,6 +14,3 @@
 <br />
 <br />
 <?php include('footer.php'); ?> 
-</div>
-</body>
-</html>
