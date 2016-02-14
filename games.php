@@ -43,16 +43,15 @@ function display_db_table($tablename, $connection, $header_bool, $table_params) 
 <html>
 <head>
 <title>My Games</title>
-<?php include('header.php'); ?>
-</head>
-<body>
-	<div id="menu"><?php include('menu.php'); ?></div>	
+<?php include('header.php'); ?>	
 <div id="content">
 <span class="boldmed">This will be updated as I get new games and I am able add them to the database</span><br />
 <!-- <a href="http://venomslair.com/crook.php">depth</a> -->
 <br />
 <span class="boldunder">My Gamer Tag</span><br />
-I have a XBOX One and I play on XBOX Live.  I am mostly playing GTA V and World of Tanks but I do play a few others.  If you would like to connect with me on XBOX live, please send a request for my gamertag through the helpdesk link on the left and I will send it to you.<br />
+I have a XBOX One and I play on XBOX Live.  I am mostly playing GTA V and World of Tanks but I do play a few others.
+If you would like to connect with me on XBOX live, please send a request for my gamertag through the helpdesk link on the
+left and I will send it to you.<br />
 <br />
 <table>
 <tr class="table">

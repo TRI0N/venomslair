@@ -1,3 +1,5 @@
+<?php $siteroot = '/includes'; ?>
+
 <html>
     <head>
         <title>My Homepage</title>   
@@ -18,4 +20,3 @@
     </head>
     <body>
        <div id="menu"><?php include('menu.php'); ?></div>
-        
