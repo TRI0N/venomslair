@@ -1,6 +1,4 @@
-<title>My To-Do List</title>
 <?php include('header.php'); ?>
-<div id="content">
 <span class="titles">My To-Do List</span><br />
 <br />
 Here is a list of things that I need to work on, on this website.  If you see something that needs 

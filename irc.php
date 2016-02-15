@@ -1,6 +1,5 @@
 # added this page on September 13, 2013
 <?php include('header.php'); ?>
-<div id="content">
 <span class="boldunder">Networks</span><br />
 <a href="http://ospreynet.info">Osprey Networks</a><br />
 <br />

@@ -1,6 +1,4 @@
-        <title>Links</title>
 <?php include('header.php'); ?>
-<div id="content">
 <span class="boldunder">Operating Systems</span><br />
 <a href="http://www.freebsd.org">FreeBSD</a><br />
 <a href="http://www.ubuntu.com">Ubuntu</a><br />

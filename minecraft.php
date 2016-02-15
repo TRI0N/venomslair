@@ -1,6 +1,5 @@
-<title>Minecraft</title>
 <?php include('header.php'); ?>
-<div id="content"><span class="titles">Minecraft Links and other Information</span><br />
+<span class="titles">Minecraft Links and other Information</span><br />
 <br />
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
 I am sorry I haven't kept up with Minecraft, I will be getting back into it soon.<br />

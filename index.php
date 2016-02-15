@@ -1,6 +1,5 @@
 <?php include('header.php'); ?>
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
-<div id="content">
 <span class="titles">Welcome to my page</span><br />
 <br />
 Thanks for stopping by<br />
