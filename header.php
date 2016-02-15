@@ -18,5 +18,4 @@
     </head>
     <body>
        <div id="menu"><?php include('menu.php'); ?></div>
-       
-<div id="content">     
+       <div id="content">     

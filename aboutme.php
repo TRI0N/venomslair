@@ -56,3 +56,6 @@ IRC<br />
 <span class="boldunder">Current Projects</span><br />
 I usually dont have anything to report in this section, but I am learning PHP, so I can make mass
 improvements to this website.  I am very excited on what I can do to improve the site.<br />
+<br />
+<br />
+<?php include('footer.php'); ?>
