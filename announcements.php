@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-<div id="content">
 <span class="titles">Announcements</span><br />
 <br />
 <span class="boldundersm">01/15/2016</span><br />

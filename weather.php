@@ -1,9 +1,5 @@
 <?php include('header.php'); ?>
-</head>
-<body>
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
-<div id="menu"><?php include('menu.php'); ?></div>
-<div id="content">
 <br />
 <span class="boldunder">Weather Related Sites</span><br />
 <a href="http://www.weather.com">The Weather Channel</a><br />

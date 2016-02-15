@@ -1,6 +1,5 @@
-<title>Minecraft</title>
 <?php include('header.php'); ?>
-<div id="content"><span class="titles">Minecraft Links and other Information</span><br />
+<span class="titles">Minecraft Links and other Information</span><br />
 <br />
 <a href="http://venomslair.com/crook.php"><span style="display: none;">depth</span></a>
 I am sorry I haven't kept up with Minecraft, I will be getting back into it soon.<br />
@@ -16,7 +15,7 @@ full attribution)<br />
 <br />
 <span class="boldunder">Here are a some links</span><br />
 <a href="http://www.minecraft.net">Offical Minecraft Site</a><br />
-a href="http://www.minecraftwiki.net">Minecraft Wiki (Has lots of great information)</a><br />
+<a href="http://www.minecraftwiki.net">Minecraft Wiki (Has lots of great information)</a><br />
 <a href="http://www.technicpack.net">Technic Launcher - Original Minecraft and many modded versions available,
 as well as the ability to create your own mod packs. (Thank you Anannsul for this link and description)</a><br />
 <br />
