@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include('header.php'); ?>
 <div style="display: none;"><a href="http://venomslair.com/crook.php">depth</a></div>
 <span class="boldunder">Where I live now</span><br />
 Minneapolis, Minnesota<br />
@@ -36,7 +36,7 @@ Income Property<br />
 Fixer Upper<br />
 <br />
 <span class="boldunder">My Favorite shows that are no longer on TV</span><br />
-King & Maxwell<br />
+King &amp; Maxwell<br />
 Almost Human<br />
 24<br />
 Forever<br />

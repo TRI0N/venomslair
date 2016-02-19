@@ -1,6 +1,6 @@
 <?php
 
-require_once 'login.php'; 
+require_once('login.php');
 
 //This is the string to connect to the database server
 $global_dbh = mysql_connect($hostname, $username, $password) or die("Could not connect to database: " . mysql_error());
@@ -40,10 +40,7 @@ function display_db_table($tablename, $connection, $header_bool, $table_params) 
 	display_db_query($query_string, $connection, $header_bool, $table_params);
 }
 ?>
-<html>
-<head>
-<title>My Games</title>
-<?php include('header.php'); ?>	
+<?php include('header.php'); ?>
 <span class="boldmed">This will be updated as I get new games and I am able add them to the database</span><br />
 <!-- <a href="http://venomslair.com/crook.php">depth</a> -->
 <br />
@@ -69,6 +66,3 @@ mysql_close($global_dbh);
 <br />
 <br />
 <?php include('footer.php'); ?>
-</div>
-</body>
-</html>
