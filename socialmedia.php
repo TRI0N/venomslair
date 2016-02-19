@@ -1,4 +1,3 @@
-<title>Social Media Links</title>
 <?php include('header.php'); ?>
 <div style="display: none;"><a href="http://venomslair.com/crook.php">depth</a></div>
 <span class="titles">My Social Media Links</span><br />

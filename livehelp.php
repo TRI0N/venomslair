@@ -1,2 +1,2 @@
- <div id="craftysyntax_1"><script type="text/javascript" src="/livehelp/livehelp_js.php?eo=0&amp;relative=Y&amp;department=1&amp;serversession=1&amp;pingtimes=10&amp;dynamic=Y&amp;creditline=W"></script></div>
+<div id="craftysyntax_1"><script type="text/javascript" src="/livehelp/livehelp_js.php?eo=0&amp;relative=Y&amp;department=1&amp;serversession=1&amp;pingtimes=10&amp;dynamic=Y&amp;creditline=W"></script></div>
  
