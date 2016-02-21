@@ -145,7 +145,20 @@ h3 {
     margin-right: 0;
     padding-left: 40px;
 }
+
 #log_selector td {
 	text-align: center;
 	padding: 5px;
+	top: 60px;
+	left: 120px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+#log_view {
+	padding: 5px;
+	top: 60px;
+	left: 120px;
+	position: relative;
+	word-wrap: break-word;
 }
