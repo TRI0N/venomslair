@@ -14,6 +14,9 @@ $logFile = $_REQUEST['log_page'] ;
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>IRC Logs</title>
 <link rel="stylesheet" href="../../css/mySTYLE.css" />
+<div id="mast">
+<img src="../../navimages/mast.jpg" width="700" height="100" border="0" alt="mast.jpg" />
+</div>
 <script type="text/javascript">
 // Dynamic Display of Log Files
 function showLog() {
@@ -21,6 +24,7 @@ function showLog() {
    document.getElementById('log_view').style.display = 'block';
 }
 </script>
+<div id="menu"><?php include('../../menu.php'); ?></div>
 
 </head>
 
