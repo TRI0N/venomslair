@@ -8,9 +8,9 @@ This page is always under construction, please check back regularly<br />
 <br />
 Please visit <a href="announcements.php">here</a> to see all important messages regarding the website<br />
 <br />
-<span class="boldunder">Time from NIST</span><br />
-<?php include('nist.php'); ?>
+<span class="boldunder">Time and Date where I live</span><br />
 <br />
+<span class="date"><?php include('date.php'); ?></span>
 <br />
 <span class="boldunder">Live Help</span><br />
 <?php include('livehelp.php'); ?>
