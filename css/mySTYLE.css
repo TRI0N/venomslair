@@ -30,6 +30,7 @@
 	position: absolute;
 	width: 700px;
 	height: 100px;
+	background-image: url('../navimages/menuBG.jpg'); 
 }
 
 #content {
@@ -161,4 +162,8 @@ h3 {
 	left: 120px;
 	position: relative;
 	word-wrap: break-word;
+}
+
+.date {
+	font-size: 13px;
 }
