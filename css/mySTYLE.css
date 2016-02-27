@@ -1,10 +1,12 @@
-﻿body {
+body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	line-height: 15px;
 	color: #fff;
 	background-color: #333333;
-	margin: 0px;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #menu {
@@ -14,7 +16,7 @@
 	text-decoration: none;
 	text-align: left;
 	padding: 1px;
-	position: absolute;
+	position: relative;
 	left: 0px;
 	top: 100px;
 	line-height: 20px;
@@ -22,6 +24,8 @@
 	background-image: url(../navimages/menuBG.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
+	float: left;
+	z-index: 1;
 }
 #mast {
 	text-decoration: none;
@@ -42,7 +46,7 @@
 	left: 120px;
 	top: 102px;
 	line-height: 22px;
-	width: 1150px;
+	/*width: 1150px; This looks irrelavant*/
 }
 
 .center {
@@ -132,6 +136,7 @@ h3 {
 	text-decoration: underline;
 }
 
+/* NO IDEA WHAT THIS IS FOR  table, td, tr should not have a . in front unless inside a ID or Class for Seperation eg: .fancyTable table, .fancyTable tr, .fancyTable td */
 .table, .table td, .table th {
 	font-size: 12px;
 	width: auto;
@@ -147,21 +152,26 @@ h3 {
     padding-left: 40px;
 }
 
-#log_selector td {
-	text-align: center;
-	padding: 5px;
-	top: 60px;
-	left: 120px;
+#master_container {
+	max-width: 100%;
+	height: auto;
+}
+
+.page_container {
+	top: 101px;
 	position: relative;
-	word-wrap: break-word;
+}
+
+#log_selector {
+	text-align: left;
+	padding: 5px;
+	position: relative;
 }
 
 #log_view {
 	padding: 5px;
-	top: 60px;
-	left: 120px;
 	position: relative;
-	word-wrap: break-word;
+	z-index: 0;
 }
 
 .date {
