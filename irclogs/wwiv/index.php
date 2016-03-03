@@ -5,9 +5,11 @@
 date_default_timezone_set('America/Chicago') ;
 
 // Reguest The Log File To Be Viewed
-$logFile = "null.php" ;
-if ($_REQUEST['log_page'] != '') {
-$logFile = $_REQUEST['log_page'] ;
+
+if (empty($_REQUEST['log_page'])) {
+   $logFile = "null.php" ;
+}else{
+   $logFile = $_REQUEST['log_page'] ;
 }
 ?>
 <!DOCTYPE html>
